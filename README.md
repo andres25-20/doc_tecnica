@@ -10,3 +10,11 @@ entero de destino, y devuelva los índices de los dos números que sumados dan e
 del entero destino.
 3. Diseñe un sistema de gestión de bibliotecas sencillo con clases para libros, bibliotecas y
 miembros.
+
+# Desarrollo de los Requerimientos Solicitados
+
+Punto 1. Se realiza la creacion de la base de datos de acuerdo a las especificaciones indicadas, adicional se exporta el esquema donde se podra ver las relaciones creadas y todo el detalle de esta.
+
+Punto 2. Se realiza la creación de una función cumpliendo con las especificaciones indicadas, en lenguaje Javascript.
+
+Punto 3. Se realiza diseño de un sistema de gestion de bibliotecas en el cual se realiza diagrama de clases y mockups de acuerdo a especificaciones indicadas.
