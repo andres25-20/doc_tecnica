@@ -1,0 +1,26 @@
+body {
+    margin-top: 80px;
+}
+.content {
+    padding: 20px;
+}
+.espacio-menu {
+    height: 15%;
+}
+.text-c-menu {
+    color: black;
+}
+.navbar-nav .nav-link:hover {
+    color: inherit;
+}
+.navbar-nav .nav-link:hover {
+    color: inherit;
+}
+.boton-c-menu {
+    background-color: black !important;
+    border-radius: 15%;
+}
+.tex-principal{
+    font-size: 3rem; 
+    font-weight: bold;
+}
