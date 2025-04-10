@@ -13,9 +13,10 @@ $(document).ready(function() {
         });
     }
 
-    $('a.dropdown-item').click(function(e) {
+    $('a.nav-link').click(function(e) {
         e.preventDefault();  
-        var page = $(this).attr('href').split('=')[1]; 
+        var href = $(this).attr('href');
+        var page = href.split('=')[1]; 
         cargarContenido(page); 
     });
 

@@ -12,20 +12,20 @@
           </a>
         </li>
 
-        <li class="nav-item dropdown">
-          <a class="nav-link text-c-menu" href="?page=reporte" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <li class="nav-item">
+          <a class="nav-link text-c-menu" href="?page=reporte">
             Reporte
           </a>
         </li>
 
-        <li class="nav-item dropdown">
-          <a class="nav-link text-c-menu" href="?page=solicitudes" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <li class="nav-item">
+          <a class="nav-link text-c-menu" href="?page=solicitudes">
              Solicitudes
           </a>
         </li>
 
-        <li class="nav-item dropdown">
-          <a class="nav-link boton-c-menu" href="?page=prestamo" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <li class="nav-item">
+          <a class="nav-link boton-c-menu" href="?page=prestamo">
             Prestamo
           </a>
         </li>
