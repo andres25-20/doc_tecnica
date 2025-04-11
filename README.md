@@ -18,3 +18,8 @@ Punto 1. Se realiza la creacion de la base de datos de acuerdo a las especificac
 Punto 2. Se realiza la creación de una función cumpliendo con las especificaciones indicadas, en lenguaje Javascript.
 
 Punto 3. Se realiza diseño de un sistema de gestion de bibliotecas en el cual se realiza diagrama de clases y mockups de acuerdo a especificaciones indicadas.
+
+Se Realiza Desarrollo e implementación de la aplicación de sistema de gestión de bibliotecas, para lo cual se recomienda:
+1. Clonar o actualizar el repositorio en el sitio local, para poder ver los cambios e implementacion del la aplicación.
+2. Abrir y ejeutar el archivo de nombre Query db virtuabooks.sql, ya que contine la creacion de la db, tablas y registros basicos de la aplicación.
+3. Ingresar a el sitio local en el cual se clono la aplicación, con el fin de validar y navegar en ella.
