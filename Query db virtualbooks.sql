@@ -39,6 +39,7 @@ CREATE TABLE miembro (
     id_miembro INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,
     id_estado INT,
+	libros_prestado INT DEFAULT 0,
     FOREIGN KEY (id_estado) REFERENCES estado(id_estado)
 );
 
@@ -59,3 +60,19 @@ CREATE TABLE biblioteca (
     nombre VARCHAR(100) NOT NULL
 );
 
+
+-- registro de estados
+INSERT INTO estado (nombre) VALUES ('Disponible'),('Prestado'),('Pendiente'),('Ocupado'),('Activo'),('Inactivo');
+
+
+-- registro miembros
+INSERT INTO miembro (nombre, id_estado, libros_prestado) VALUES ('Andres F Pinto', '5', '0'), ('Felipe Pinto', '5', '0');
+
+-- registro categoria
+INSERT INTO categoria (nombre) VALUES ('poetica'),('educacion'),('cuentos'),('infantil');
+
+-- registro autor
+INSERT INTO autor (nombre) VALUES ('Gabriel García Márquez'),('Miguel de Cervantes'),('J.R.R.'),('jorge isaacs');
+
+-- registro libro
+INSERT INTO libro (titulo,id_estado,id_autor, id_categoria) VALUES ('La Maria',1,4,1);

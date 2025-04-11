@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark espacio-menu fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark espacio-menu fixed-top" style="background-color: white;">
   <div class="container-fluid">
     <h4 style="width: 150%;">
       Sistema de Gestión Bibliotecario - VirtualBooks
